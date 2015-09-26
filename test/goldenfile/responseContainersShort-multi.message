@@ -1,0 +1,5 @@
+[1] ambassador_nexus_1 http://localhost:7076/docker/7048b4c0ffca7240de468ce0c87a5eeddc33f906d117ebd928b1d41efedc3de6
+[2] ambassador_gitblit_1 http://localhost:7076/docker/a0b3e3915117bacccd5d6b8e83c2f8ab6a9bc916b578429bab32d115d8b844ce
+[3] cadvisor_cadvisor_1 http://localhost:7076/docker/7171f464213672faa2be61d4ca5a3af0d5988024a3fdb61ec8aa223ceefe71ae
+[4] ambassador_jenkins_1 http://localhost:7076/docker/3de4256294b1e0452b085e254d7ee6a70c015a5b25800c5d44aa1184b9ff98e9
+[5] ambassador_hubot_1 http://localhost:7076/docker/1f0c79a1574bc207c406e2af82a460f898ce462cf143aad92b3cd9c1567c8c7c

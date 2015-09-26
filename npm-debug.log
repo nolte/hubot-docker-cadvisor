@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/nolte/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz
+12 verbose folder .
+13 info prepublish hubot-docker-cadvisor@0.0.3
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/nolte/.npm/1f1177db-tar.lock
+16 silly lockFile e5fa5d52-ocker-cadvisor-0-0-3-package-tgz tar:///home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz
+17 verbose lock tar:///home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz /home/nolte/.npm/e5fa5d52-ocker-cadvisor-0-0-3-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile e5fa5d52-ocker-cadvisor-0-0-3-package-tgz tar:///home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz
+21 silly lockFile e5fa5d52-ocker-cadvisor-0-0-3-package-tgz tar:///home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package.tgz
+22 silly lockFile 351673fe-ot-docker-cadvisor-0-0-3-package /home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package
+23 verbose lock /home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package /home/nolte/.npm/351673fe-ot-docker-cadvisor-0-0-3-package.lock
+24 silly lockFile 351673fe-ot-docker-cadvisor-0-0-3-package /home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package
+25 silly lockFile 351673fe-ot-docker-cadvisor-0-0-3-package /home/nolte/.npm/hubot-docker-cadvisor/0.0.3/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'hubot-docker-cadvisor',
+28 silly publish   description: 'Docker Cadvisor Client',
+28 silly publish   version: '0.0.3',
+28 silly publish   author: { name: 'nolte@gittip' },
+28 silly publish   contributors: [ { name: 'nolte' } ],
+28 silly publish   license: 'MIT',
+28 silly publish   keywords: [ 'hubot', 'hubot-scripts', 'docker', 'cadvisor', 'monitoring' ],
+28 silly publish   dependencies:
+28 silly publish    { 'coffee-script': '~1.6',
+28 silly publish      url: '~0.7.9',
+28 silly publish      querystring: '~0.2.0',
+28 silly publish      intl: '*' },
+28 silly publish   devDependencies:
+28 silly publish    { 'hubot-test-helper': '*',
+28 silly publish      nock: '*',
+28 silly publish      'coffee-script': '~1.6',
+28 silly publish      mocha: '*',
+28 silly publish      chai: '*',
+28 silly publish      'sinon-chai': '*',
+28 silly publish      sinon: '*',
+28 silly publish      'grunt-mocha-test': '~0.7.0',
+28 silly publish      'grunt-release': '~0.6.0',
+28 silly publish      matchdep: '~0.1.2',
+28 silly publish      'grunt-contrib-watch': '~0.5.3' },
+28 silly publish   main: 'index.coffee',
+28 silly publish   scripts: { test: 'grunt test' },
+28 silly publish   readme: '\n\n### Problems\n\n#### Test\n\nBig Json mock test files.\n\ncat ./test/fixdata/V1.3/subcontainers-multi.json | python -m json.tool > /tmp/subcontainers-multi-pretty.json',
+28 silly publish   readmeFilename: 'Readme.md',
+28 silly publish   gitHead: '31a2ac47ca07aa40edfcc4347a045a7e29743090',
+28 silly publish   _id: 'hubot-docker-cadvisor@0.0.3',
+28 silly publish   _shasum: 'e5d53da4dca1e41fa0167527d9419a4981e9a2ae',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Linux 3.19.0-28-generic
+31 error command "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+32 error cwd /home/nolte/workspace/marsDocker/hubot-docker-cadvisor
+33 error node -v v0.10.25
+34 error npm -v 1.4.21
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]

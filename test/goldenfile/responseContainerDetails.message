@@ -1,0 +1,10 @@
+=========[1]=========
+Container Label:	cadvisor_cadvisor_1
+Container Id:	7171f464213672faa2be61d4ca5a3af0d5988024a3fdb61ec8aa223ceefe71ae
+Container Url:	http://localhost:7076/docker/7171f464213672faa2be61d4ca5a3af0d5988024a3fdb61ec8aa223ceefe71ae
+Docker Project:	cadvisor
+Docker Service:	cadvisor
+Docker Version:	1.4.0
+Docker Config:	7a3647f6494524e14ba1ef34f4df2be0434560073075c0b586d51d9a08987ea1
+Creation Time:	2015-09-19T20:53:28.323601511Z
+Memory Usage:	2.6GB

@@ -1,0 +1,18 @@
+{
+   "/":{
+      "creation_time":"2015-09-21T16:52:54.358183749Z",
+      "has_cpu":true,
+      "cpu":{
+         "limit":1024,
+         "max_limit":0,
+         "mask":"0-11"
+      },
+      "has_memory":true,
+      "memory":{
+         "limit":9223372036854771712
+      },
+      "has_network":true,
+      "has_filesystem":true,
+      "has_diskio":true
+   }
+}

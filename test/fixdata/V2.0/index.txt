@@ -1,0 +1,1 @@
+Supported request types: "attributes,events,machine,ps,spec,stats,storage,summary,version"

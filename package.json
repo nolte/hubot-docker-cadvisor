@@ -1,0 +1,40 @@
+{
+  "name": "hubot-docker-cadvisor",
+  "description": "Docker Cadvisor Client",
+  "version": "0.0.3",
+  "author": "nolte@gittip",
+  "contributors": [
+    "nolte"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "docker",
+    "cadvisor",
+    "monitoring"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "url": "~0.7.9",
+    "querystring": "~0.2.0",
+    "intl": "*"
+  },
+  "devDependencies": {
+    "hubot-test-helper": "*",
+    "nock": "*",
+    "coffee-script": "~1.6",
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
